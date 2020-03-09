@@ -42,6 +42,14 @@ a {
   cursor: pointer;
   color: white;
 }
+a.blue {
+  color: #092dff;
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 15px;
+  font-size: 30px;
+  font-weight: 400;
+}
 a:hover {
   opacity: 0.5;
   transition: 0.4s;
