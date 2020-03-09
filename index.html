@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' type='text/css' href='styles.css'/>
+    <script src='index.js'></script>
+    <!-- rellax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.10.0/rellax.min.js" integrity="sha256-jyHh7xruaFLUoKPPnsSwEvYrBnzJczScRNnuh4Ysblc=" crossorigin="anonymous"></script>
+    <!-- flickity -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"/>
+    <!-- metadata -->
+    <meta name="project" content="marketplace"/>
+    <meta name="preferred-role" content="frontend"/>
+    <meta name="work-schedule" content="night"/>
+    <title>Michael Hollingshead</title>
+  </head>
+  <body>
+    <!-- background lines -->
+    <div id="background" align="center">
+        <table><tr><td></td><td></td><td></td><td></td><td></td></tr></table>
+    </div>
+
+    <!-- content -->
+    <div class="content" id="top">
+      <div class="rellax" data-rellax-speed="3"><div id="bg-tri-1"></div></div>
+      <section>
+        <nav>
+            <div id="navigation" align="right" class="rellax" data-rellax-speed="-2">
+              <table>
+                  <tr>
+                      <td><a href="#bio">About</a></td>
+                      <td><a href="#how">Contact</a></td>
+                      <td><a href="#project">Project</a></td>
+                      <td><a href="#work">Work</a></td>
+                  </tr>
+              </table>
+            </div>
+        </nav>
+      </section>
+      <article id="bio">
+        <section>
+          <header>
+            <div class="wrapper">
+                <div id="one">
+                    <img src="img/portraittb.png" style="width: 100%; max-width: 300px" class="rellax" data-rellax-speed="2">
+                </div>
+                <div id="two">
+                    <h1>
+                        Hi.
+                    </h1>
+                    <h2>
+                        I'm <strong>Michael Hollingshead</strong>,
+                    </h2>
+                    <h3>
+                        a <strong>software engineering</strong> major at McGill University and a freelance <strong>web developer</strong> and <strong>graphic designer</strong> located in Montreal, Quebec, Canada.
+                    </h3>
+                </div>
+            </div>
+          </header>
+        </section>
+      </article>
+      <article id="contact">
+        <section>
+          <div class="section">
+            <h4 id="how">If you're interested in working with me, feel free to contact me using one of the methods below:</h4>
+
+            <!-- decorative squares -->
+            <div class="rellax offset" data-rellax-speed="5"><div id="bg-tri-2"></div></div>
+            <div class="rellax offset" data-rellax-speed="3"><div id="bg-tri-3"></div></div>
+            <div class="rellax offset" data-rellax-speed="7"><div id="bg-tri-4"></div></div>
+            <div class="rellax offset" data-rellax-speed="4"><div id="bg-tri-5"></div></div>
+            <div class="rellax offset" data-rellax-speed="3"><div id="bg-tri-6"></div></div>
+
+            <ul>
+                <li>
+                  <a href="https://www.facebook.com/hichael.mollingshead" target="_blank">
+                    <img src="img/fb.png" class="icon"/>
+                    <strong> Facebook</strong>
+                  </a>
+                  <div class="blue" style="padding-left: 65px;">
+                    <p>message me on Facebook</p>
+                  </div>
+                </li>
+                <li>
+                  <a href="mailto:michael.hollingshead@mail.mcgill.ca">
+                    <img src="img/em.png" class="icon"/>
+                    <strong> Email</strong>
+                  </a>
+                  <div class="blue" style="padding-left: 65px;">
+                    <p>send me an email</p>
+                  </div>
+                </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+      <article id="project">
+        <section>
+          <div class="section">
+            <h2>Project Idea</h2>
+            <div class="spacer"></div>
+            <p class="blue">
+              Though I would be open to working on any of the project topics, I chose to list the <strong>Online Marketplace</strong> as my preferred topic.
+            </p>
+            <p class="blue">
+              With my experience in <strong>API integration</strong> and <strong>front-end UI</strong> development, this topic stands out to me as one that I would best be able to contribute to.
+            </p>
+            <p class="blue">
+              I feel that there's a lot of room for creativity with a project like this, and even though I'm open to any ideas, I think the perfect one came to me in a dream several years ago.
+            </p>
+            <p class="blue">
+              I'm talking, of course, about <strong class="white">onesock.com</strong>. I'm sure we've all been there– we have the perfect pair of socks, we're wearing them constantly, everything's going swimmingly until one day, one of them disappears!
+            </p>
+            <p class="blue">
+              Usually at this point, our singular sock is renderred useless– until <strong class="white">onesock.com</strong> came along. With <strong class="white">onesock.com</strong>, users can either find their missing sock to complete their favorite pair <strong>or</strong> make some extra cash off of their once-useless singular sock.
+            </p>
+            <p class="blue">
+              Never again will an incomplete pair of socks be thrown away or forgotten. Find your missing sock. <strong class="white">onesock.com</strong>.
+            </p>
+            <div class="spacer"></div>
+            <p class="blue">
+              Because this idea is a running joke I have with myself, I'm obviously open to other ideas. I think there are a lot of creative paths we can take with a topic like this and I'm excited to see what kind of useful tool we can come up with!
+            </p>
+          </div>
+        </section>
+      </article>
+      <article id="work">
+        <section>
+          <div id="section">
+            <div class="spacer"></div><div class="spacer"></div>
+            <h4>Feel free to check out some of my recent projects below:</h4>
+            <div class="main-carousel" data-flickity='{"cellAlign": "left", "contain": true, "pageDots": false, "freeScroll": true, "wrapAround": true}'>
+              <div class="carousel-cell">
+                <h2>vertex.red</h2>
+                <p class="blue smaller">
+                  an html/css/javascript playground that compiles and displays your code as you write it and allows you to save, load, and export projects.
+                </p><br/>
+                <div align="center">
+                  <a class="button" href="https://vertex.red" target="_blank">View Project</a>
+                </div>
+                <div class="spacer"></div>
+                <img src="img/vredmockup.png" width="100%"></img>
+              </div>
+              <div class="carousel-cell">
+                <h2>Carnival Waiver</h2>
+                <p class="blue smaller">
+                  the waiver that was used by all 2500 McGill Winter Carnival participants. Designed to coincide with their Candy Land theme with parallax scrolling to add a multi-layer effect.
+                </p><br/>
+                <div align="center">
+                  <a class="button" href="https://mhollingshead.github.io/carnivalwaiver2020/" target="_blank">View Project</a>
+                </div>
+                <div class="spacer"></div>
+                <img src="img/waivermockup.png" width="100%"></img>
+              </div>
+              <div class="carousel-cell">
+                <h2>MUS Site Redesign</h2>
+                <p class="blue smaller">
+                  a full site update and redesign for McGill University's Management Undergraduate Society.
+                </p><br/>
+                <div align="center">
+                  <a class="button" href="https://mus.mcgill.ca" target="_blank">View Project</a>
+                </div>
+                <div class="spacer"></div>
+                <img src="img/musmockup.png" width="100%"></img>
+              </div>
+              <div class="carousel-cell">
+                <h2>Embeddable Mockups</h2>
+                <p class="blue smaller">
+                  a little tool I made to create pure HTML product mockups that can be copied and embedded into your site.
+                </p><br/>
+                <div align="center">
+                  <a class="button" href="https://embeddablemockups.tumblr.com/" target="_blank">View Project</a>
+                </div>
+                <div class="spacer"></div>
+                <img src="img/emmockup.png" width="100%"></img>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
+      <article>
+        <footer>
+          <div align="center">
+              <a href="#top" style="opacity: 0.3">Back to top</a>
+              <div class="spacer"></div>
+          </div>
+        </footer>
+      </article>
+    </div>
+  </body>
+  <script>
+      //parallax scrolling
+      var rellax = new Rellax('.rellax');
+
+      //smooth scrolling
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', function (e) {
+              e.preventDefault();
+
+              document.querySelector(this.getAttribute('href')).scrollIntoView({
+                  behavior: 'smooth'
+              });
+          });
+      });
+  </script>
+</html>
